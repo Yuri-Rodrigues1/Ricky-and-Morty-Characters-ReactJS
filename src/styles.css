@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  overflow-x: hidden;
+}
+.App {
+  background-color: RGB(91, 94, 166);
+  height: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 8px;
+  color: white;
+  font-weight: bold;
+}
+.navbar input {
+  background-color: white;
+}
+.navbar button {
+  background-color: brown;
+  cursor: pointer;
+}
+
+.character-container {
+  display: inline-block; /* Altera o display para inline-block */
+  text-align: center;
+  margin: 10px;
+  width: calc(
+    25% - 20px
+  ); /* Define a largura para 25% do container pai (com margens) */
+  vertical-align: top; /* Alinha os elementos ao topo para garantir que a imagem fique acima do nome */
+}
+
+.character-container img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.character-container p {
+  font-weight: bold;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar input {
+    width: 80%;
+  }
+}
