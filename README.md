@@ -1,2 +1,3 @@
 # Ricky-and-Morty-Characters-ReactJS
-Created with CodeSandbox
+Link do projeto [aqui](https://yzdy8n.csb.app/)
+
